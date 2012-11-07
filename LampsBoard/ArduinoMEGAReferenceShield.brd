@@ -1768,7 +1768,9 @@ design rules under a new name.</description>
 <wire x1="61.976" y1="32.004" x2="62.23" y2="32.385" width="0.2032" layer="16"/>
 <wire x1="64.516" y1="28.956" x2="67.945" y2="32.385" width="0.2032" layer="1"/>
 <wire x1="64.516" y1="28.448" x2="64.516" y2="28.956" width="0.2032" layer="1"/>
-<wire x1="83.185" y1="25.4" x2="96.52" y2="50.8" width="0" layer="19" extent="1-1"/>
+<contactref element="JP3" pad="1"/>
+<wire x1="93.98" y1="50.8" x2="96.52" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="83.185" y1="25.4" x2="93.98" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D44">
 <contactref element="Q1" pad="B"/>

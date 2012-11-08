@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/justinhawkins/Documents/eagle/LampsBoard/ArduinoMEGAReferenceShield.brd
+Job           : /Users/justinhawkins/Documents/eagle/LampsBoard/LAMPS.brd
 
-Start at      : 00:01:46 (11/7/12)
-End at        : 00:01:47 (11/7/12)
-Elapsed time  : 00:00:01
+Start at      : 20:57:00 (11/7/12)
+End at        : 20:57:08 (11/7/12)
+Elapsed time  : 00:00:08
 
 Signals       :    40   RoutingGrid: 20 mil  Layers: 2
-Connections   :    87   predefined:  0 ( 0 Vias )
+Connections   :    90   predefined:  35 ( 0 Vias )
 
 Router memory :   124392
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00
+Time per pass     :  00:00:00  00:00:02  00:00:02  00:00:01  00:00:01  00:00:02
 Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         1         0         0         0         0
+max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
-Routed            :        34        86        86        86        86        86
-Vias              :         0        51         7         2         0         0
-Resolution        :    39.1 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %
+Routed            :        17        55        55        55        55        55
+Vias              :         0        31        10         4         4         4
+Resolution        :    57.8 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 98.9% finished
+Final             : 100.0% finished

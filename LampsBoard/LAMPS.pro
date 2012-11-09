@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/Justin/eagle/LampsBoard/LAMPS.brd
+Job           : /Users/justinhawkins/Development/LAMPS/LampsBoard/LAMPS.brd
 
-Start at      : 21:52:28 (11/7/2012)
-End at        : 21:52:31 (11/7/2012)
-Elapsed time  : 00:00:03
+Start at      : 00:07:29 (11/9/12)
+End at        : 00:07:43 (11/9/12)
+Elapsed time  : 00:00:14
 
-Signals       :    45   RoutingGrid: 20 mil  Layers: 2
-Connections   :    99   predefined:  28 ( 0 Vias )
+Signals       :    91   RoutingGrid: 20 mil  Layers: 2
+Connections   :   155   predefined:  40 ( 0 Vias )
 
-Router memory :   136488
+Router memory :   137456
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:01  00:00:00  00:00:01
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:00  00:00:10  00:00:01  00:00:02  00:00:00  00:00:01
+Number of Ripups  :         0       200         0         0         0         0
+max. Level        :         0         5         0         0         0         0
+max. Total        :         0        11         0         0         0         0
 
-Routed            :        22        71        71        71        71        71
-Vias              :         0        50         8         3         4         4
-Resolution        :    50.5 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        21       113       113       113       113       113
+Vias              :         0        62        29        22        22        20
+Resolution        :    39.4 %    98.7 %    98.7 %    98.7 %    98.7 %    98.7 %
 
-Final             : 100.0% finished
+Final             : 98.7% finished

@@ -1088,69 +1088,167 @@ Please make sure your boards conform to these design rules.</description>
 <elements>
 <element name="PWML" library="pinhead" package="1X08" value="RX(0) TX(1) 2-7" x="54.61" y="50.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="61.595" y="55.245" size="1.27" layer="27" rot="R180"/>
+<attribute name="OC_NEWARK" value="unknown" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="PWMH" library="pinhead" package="1X08" value="8-13 GND AREF" x="33.02" y="50.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="40.005" y="55.245" size="1.27" layer="27" rot="R180"/>
+<attribute name="OC_NEWARK" value="unknown" x="33.02" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="33.02" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="33.02" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="POWER" library="pinhead" package="1X06" value="Reset 3v3 5V GND Vin" x="39.37" y="2.54" smashed="yes">
 <attribute name="VALUE" x="34.29" y="-0.635" size="0.6096" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="39.37" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="39.37" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="39.37" y="2.54" size="1.778" layer="27" display="off"/>
 </element>
 <element name="ADCL" library="pinhead" package="1X08" value="0-7" x="59.69" y="2.54" smashed="yes">
 <attribute name="NAME" x="48.9712" y="1.4986" size="1.27" layer="49" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="58.42" y="-1.27" size="1.27" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="59.69" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="59.69" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="59.69" y="2.54" size="1.778" layer="27" display="off"/>
 </element>
 <element name="COMMUNICATION" library="pinhead" package="1X08" value="14-21" x="77.47" y="50.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="86.995" y="54.61" size="0.6096" layer="27" rot="R180"/>
+<attribute name="OC_NEWARK" value="unknown" x="77.47" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="77.47" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="77.47" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="ADCH" library="pinhead" package="1X08" value="8-15" x="82.55" y="2.54" smashed="yes">
 <attribute name="NAME" x="71.8312" y="1.2954" size="1.27" layer="49" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="80.01" y="-1.27" size="1.27" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="82.55" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="82.55" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="82.55" y="2.54" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="pinhead" package="2X08" value="22-37" x="95.25" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="97.155" y="41.275" size="0.6096" layer="49" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="103.505" y="36.195" size="1.27" layer="27" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="95.25" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="95.25" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="95.25" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP2" library="pinhead" package="2X08" value="38-53" x="95.25" y="19.05" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.345" y="19.685" size="0.6096" layer="49" ratio="10"/>
 <attribute name="VALUE" x="103.505" y="17.145" size="1.27" layer="27" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="95.25" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="95.25" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="95.25" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP3" library="pinhead" package="1X01" value="+5V" x="93.98" y="50.8" smashed="yes">
 <attribute name="VALUE" x="93.345" y="53.975" size="0.6096" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="93.98" y="50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="93.98" y="50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="93.98" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP4" library="pinhead" package="1X01" value="+5V" x="96.52" y="50.8" smashed="yes">
 <attribute name="NAME" x="97.2312" y="52.5018" size="0.6096" layer="49" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="95.885" y="53.975" size="0.6096" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="96.52" y="50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="96.52" y="50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="96.52" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP5" library="pinhead" package="1X01" value="GND" x="93.98" y="7.62" smashed="yes">
 <attribute name="NAME" x="93.2688" y="5.9182" size="0.6096" layer="49" ratio="10"/>
 <attribute name="VALUE" x="93.345" y="5.08" size="0.6096" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="93.98" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="93.98" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="93.98" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP6" library="pinhead" package="1X01" value="GND" x="96.52" y="7.62" smashed="yes">
 <attribute name="NAME" x="95.8088" y="5.9182" size="0.6096" layer="49" ratio="10"/>
 <attribute name="VALUE" x="95.885" y="5.08" size="0.6096" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="96.52" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="96.52" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="96.52" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Z-MAX" library="SparkFun" package="1X02" value="" x="85.09" y="20.32" rot="R180"/>
-<element name="Z-MIN" library="SparkFun" package="1X02" value="" x="85.09" y="13.97" rot="R180"/>
-<element name="B0" library="SparkFun" package="1X02" value="" x="27.305" y="8.89"/>
-<element name="B1" library="SparkFun" package="1X02" value="" x="38.1" y="8.89"/>
+<element name="Z-MAX" library="SparkFun" package="1X02" value="" x="85.09" y="20.32" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="85.09" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="85.09" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="85.09" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="Z-MIN" library="SparkFun" package="1X02" value="" x="85.09" y="13.97" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="85.09" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="B0" library="SparkFun" package="1X02" value="" x="27.305" y="8.89">
+<attribute name="OC_NEWARK" value="unknown" x="27.305" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="27.305" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="27.305" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="B1" library="SparkFun" package="1X02" value="" x="38.1" y="8.89">
+<attribute name="OC_NEWARK" value="unknown" x="38.1" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="38.1" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="38.1" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
 <element name="Z-AXIS" library="Pololu-A4988" package="DIL_A4988" value="POLOLU-A4988" x="64.77" y="40.005" smashed="yes" rot="R270">
 <attribute name="NAME" x="83.82" y="41.275" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="62.23" y="41.275" size="1.27" layer="27" rot="R270"/>
+<attribute name="OC_NEWARK" value="unknown" x="64.77" y="40.005" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="64.77" y="40.005" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="64.77" y="40.005" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Z-MOT" library="SparkFun" package="MOLEX-1X4" value="" x="76.2" y="17.145" rot="R180"/>
-<element name="JP8" library="jumper" package="JP3Q" value="" x="88.9" y="33.655" rot="R270"/>
-<element name="R1" library="SparkFun" package="AXIAL-0.3" value="10K" x="73.025" y="31.115" rot="R180"/>
-<element name="R2" library="SparkFun" package="AXIAL-0.3" value="100K" x="73.025" y="36.195" rot="R180"/>
+<element name="Z-MOT" library="SparkFun" package="MOLEX-1X4" value="" x="76.2" y="17.145" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="76.2" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="76.2" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="76.2" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="JP8" library="jumper" package="JP3Q" value="" x="88.9" y="33.655" rot="R270">
+<attribute name="OC_NEWARK" value="unknown" x="88.9" y="33.655" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="88.9" y="33.655" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="88.9" y="33.655" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R1" library="SparkFun" package="AXIAL-0.3" value="10K" x="73.025" y="31.115" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="73.025" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="73.025" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="73.025" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R2" library="SparkFun" package="AXIAL-0.3" value="100K" x="73.025" y="36.195" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="73.025" y="36.195" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="73.025" y="36.195" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="73.025" y="36.195" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="IC3" library="SparkFun" package="78XXL" value="5V" x="5.715" y="50.165" smashed="yes">
 <attribute name="NAME" x="1.905" y="55.245" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="1.778" y="52.705" size="1.778" layer="27" ratio="10"/>
+<attribute name="OC_NEWARK" value="unknown" x="5.715" y="50.165" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="5.715" y="50.165" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="5.715" y="50.165" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q1" library="transistor-power" package="TO220AH" value="TIP120" x="0.635" y="30.48" rot="R90"/>
-<element name="D1" library="diode" package="DO41-10" value="1N4004" x="16.51" y="47.625" rot="R180"/>
-<element name="R3" library="SparkFun" package="AXIAL-0.3" value="1Kohm" x="32.385" y="46.355" rot="R180"/>
-<element name="C9" library="SparkFun" package="CAP-PTH-SMALL" value=".1uF" x="5.08" y="36.195" rot="R180"/>
-<element name="LASER!" library="SparkFun" package="MOLEX-1X2" value="" x="3.81" y="39.37" rot="R90"/>
-<element name="C10" library="SparkFun" package="CAP-PTH-SMALL" value=".33uF" x="11.43" y="40.64" rot="R90"/>
+<element name="Q1" library="transistor-power" package="TO220AH" value="TIP120" x="0.635" y="30.48" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="0.635" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="0.635" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="0.635" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D1" library="diode" package="DO41-10" value="1N4004" x="16.51" y="47.625" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="16.51" y="47.625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="16.51" y="47.625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="16.51" y="47.625" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R3" library="SparkFun" package="AXIAL-0.3" value="1Kohm" x="32.385" y="46.355" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="32.385" y="46.355" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="32.385" y="46.355" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="32.385" y="46.355" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C9" library="SparkFun" package="CAP-PTH-SMALL" value=".1uF" x="5.08" y="36.195" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="5.08" y="36.195" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="5.08" y="36.195" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="5.08" y="36.195" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="LASER!" library="SparkFun" package="MOLEX-1X2" value="" x="3.81" y="39.37" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="3.81" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="3.81" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="3.81" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C10" library="SparkFun" package="CAP-PTH-SMALL" value=".33uF" x="11.43" y="40.64" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="11.43" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="11.43" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="11.43" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="X-GALVO" library="con-molex" package="22-23-2031" value="22-23-2031" x="4.445" y="3.175">
 <attribute name="OC_NEWARK" value="30C0862" x="4.445" y="3.175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2031" x="4.445" y="3.175" size="1.778" layer="27" display="off"/>
@@ -1158,14 +1256,21 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="OC_FARNELL" value="1462950" x="4.445" y="3.175" size="1.778" layer="27" display="off"/>
 </element>
 <element name="S2" library="switch-omron" package="B3F-31XX" value="" x="26.035" y="3.81">
-<attribute name="OC_NEWARK" value="36M3582" x="6.35" y="-32.385" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="6.35" y="-32.385" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="B3F-3100" x="6.35" y="-32.385" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="6.35" y="-32.385" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="959704" x="6.35" y="-32.385" size="1.778" layer="27" display="off"/>
 </element>
-<element name="VCC" library="adafruit" package="1X01" value="" x="89.535" y="27.305" rot="R180"/>
+<element name="VCC" library="adafruit" package="1X01" value="" x="89.535" y="27.305" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="89.535" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="89.535" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="89.535" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="12V-AUX" library="SparkFun" package="1X02" value="" x="69.85" y="10.16" smashed="yes">
 <attribute name="VALUE" x="68.58" y="6.985" size="1.27" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="69.85" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="69.85" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="69.85" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
 <element name="12V" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="0.635" y="17.78" rot="R270">
 <attribute name="OC_NEWARK" value="71C4161" x="0.635" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1176,55 +1281,182 @@ Please make sure your boards conform to these design rules.</description>
 <element name="F3" library="RepRapjr" package="MFR500" value="MFR500" x="13.97" y="9.525" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.32" y="12.446" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="16.637" y="13.0048" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="OC_NEWARK" value="unknown" x="13.97" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="13.97" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="13.97" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="5V" library="adafruit" package="1X01" value="" x="89.535" y="11.43"/>
+<element name="5V" library="adafruit" package="1X01" value="" x="89.535" y="11.43">
+<attribute name="OC_NEWARK" value="unknown" x="89.535" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="89.535" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="89.535" y="11.43" size="1.778" layer="27" display="off"/>
+</element>
 <element name="3.3V" library="adafruit" package="1X01" value="" x="62.865" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.1538" y="21.0312" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="59.69" y="16.51" size="1.27" layer="27" rot="R270"/>
+<attribute name="OC_NEWARK" value="unknown" x="62.865" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="62.865" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="62.865" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="ADCH1" library="pinhead" package="1X08" value="8-15" x="81.28" y="6.35" smashed="yes">
 <attribute name="VALUE" x="71.12" y="3.175" size="1.27" layer="27"/>
+<attribute name="OC_NEWARK" value="unknown" x="81.28" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="81.28" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="81.28" y="6.35" size="1.778" layer="27" display="off"/>
 </element>
-<element name="COMM" library="pinhead" package="1X08" value="14-21" x="77.47" y="45.72" rot="R180"/>
+<element name="COMM" library="pinhead" package="1X08" value="14-21" x="77.47" y="45.72" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="77.47" y="45.72" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="77.47" y="45.72" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="77.47" y="45.72" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="AUX1" library="pinhead" package="1X08" value="14-21" x="50.8" y="45.72" smashed="yes" rot="R180">
 <attribute name="VALUE" x="60.96" y="48.895" size="1.27" layer="27" rot="R180"/>
+<attribute name="OC_NEWARK" value="unknown" x="50.8" y="45.72" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="50.8" y="45.72" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="50.8" y="45.72" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="AUX2" library="pinhead" package="1X08" value="14-21" x="99.695" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="99.6188" y="35.6362" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="96.52" y="30.48" size="1.27" layer="27" rot="R270"/>
+<attribute name="OC_NEWARK" value="unknown" x="99.695" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="99.695" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="99.695" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="B2" library="SparkFun" package="1X02" value="" x="48.895" y="8.89"/>
-<element name="B3" library="SparkFun" package="1X02" value="" x="60.325" y="8.89"/>
-<element name="R4" library="SparkFun" package="AXIAL-0.3" value="1.6Kohm" x="32.385" y="19.05" rot="R180"/>
-<element name="R5" library="SparkFun" package="AXIAL-0.3" value="1Kohm" x="55.88" y="26.035" rot="R90"/>
-<element name="R6" library="SparkFun" package="AXIAL-0.3" value="5Kohm" x="15.875" y="32.385"/>
-<element name="R7" library="SparkFun" package="AXIAL-0.3" value="3Kohm" x="46.99" y="15.24" rot="R180"/>
-<element name="R8" library="SparkFun" package="AXIAL-0.3" value="256K" x="46.99" y="19.05"/>
-<element name="R9" library="SparkFun" package="AXIAL-0.3" value="1K" x="19.685" y="39.37" rot="R90"/>
-<element name="IC2" library="linear" package="DIL08" value="LM741P" x="47.625" y="38.1" rot="R180"/>
-<element name="C1" library="SparkFun" package="CAP-PTH-SMALL" value="220uF" x="39.37" y="31.75" rot="R90"/>
-<element name="R10" library="SparkFun" package="AXIAL-0.3" value="220K" x="15.875" y="25.4" rot="R90"/>
-<element name="R11" library="SparkFun" package="AXIAL-0.3" value="220K" x="12.065" y="25.4" rot="R270"/>
-<element name="IC1" library="linear" package="DIL08" value="LM741P" x="31.75" y="26.67" rot="R180"/>
-<element name="R12" library="SparkFun" package="AXIAL-0.3" value="1K" x="15.875" y="39.37" rot="R90"/>
+<element name="B2" library="SparkFun" package="1X02" value="" x="48.895" y="8.89">
+<attribute name="OC_NEWARK" value="unknown" x="48.895" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="48.895" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="48.895" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="B3" library="SparkFun" package="1X02" value="" x="60.325" y="8.89">
+<attribute name="OC_NEWARK" value="unknown" x="60.325" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="60.325" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="60.325" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R4" library="SparkFun" package="AXIAL-0.3" value="1.6Kohm" x="32.385" y="19.05" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="32.385" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="32.385" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="32.385" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R5" library="SparkFun" package="AXIAL-0.3" value="1Kohm" x="55.88" y="26.035" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="55.88" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="55.88" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="55.88" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R6" library="SparkFun" package="AXIAL-0.3" value="5Kohm" x="15.875" y="32.385">
+<attribute name="OC_NEWARK" value="unknown" x="15.875" y="32.385" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="15.875" y="32.385" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="15.875" y="32.385" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R7" library="SparkFun" package="AXIAL-0.3" value="3Kohm" x="46.99" y="15.24" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="46.99" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="46.99" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="46.99" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R8" library="SparkFun" package="AXIAL-0.3" value="256K" x="46.99" y="19.05">
+<attribute name="OC_NEWARK" value="unknown" x="46.99" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="46.99" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="46.99" y="19.05" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R9" library="SparkFun" package="AXIAL-0.3" value="1K" x="19.685" y="39.37" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="19.685" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="19.685" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="19.685" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="IC2" library="linear" package="DIL08" value="LM741P" x="47.625" y="38.1" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="47.625" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="47.625" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="47.625" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C1" library="SparkFun" package="CAP-PTH-SMALL" value="220uF" x="39.37" y="31.75" rot="R90">
+<attribute name="OC_NEWARK" value="39T8339" x="39.37" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="39.37" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="100PK220MEFC12.5X20" x="39.37" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R10" library="SparkFun" package="AXIAL-0.3" value="220K" x="15.875" y="25.4" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="15.875" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="15.875" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="15.875" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R11" library="SparkFun" package="AXIAL-0.3" value="220K" x="12.065" y="25.4" rot="R270">
+<attribute name="OC_NEWARK" value="unknown" x="12.065" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="12.065" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="12.065" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="IC1" library="linear" package="DIL08" value="LM741P" x="31.75" y="26.67" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="31.75" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="31.75" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="31.75" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R12" library="SparkFun" package="AXIAL-0.3" value="1K" x="15.875" y="39.37" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="15.875" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="15.875" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="15.875" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="Y-GALVO" library="con-molex" package="22-23-2031" value="22-23-2031" x="15.24" y="3.175">
 <attribute name="OC_NEWARK" value="30C0862" x="6.35" y="14.605" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2031" x="6.35" y="14.605" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MOLEX" x="6.35" y="14.605" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1462950" x="6.35" y="14.605" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R13" library="SparkFun" package="AXIAL-0.3" value="1.6Kohm" x="33.02" y="14.605"/>
-<element name="R14" library="SparkFun" package="AXIAL-0.3" value="1Kohm" x="59.69" y="38.1" rot="R270"/>
-<element name="R15" library="SparkFun" package="AXIAL-0.3" value="5Kohm" x="55.88" y="38.1" rot="R90"/>
-<element name="R16" library="SparkFun" package="AXIAL-0.3" value="3Kohm" x="59.69" y="26.035" rot="R90"/>
-<element name="R17" library="SparkFun" package="AXIAL-0.3" value="256K" x="39.37" y="22.86" rot="R90"/>
-<element name="R18" library="SparkFun" package="AXIAL-0.3" value="1K" x="57.15" y="14.605" rot="R90"/>
-<element name="IC4" library="linear" package="DIL08" value="LM741P" x="47.625" y="27.305" rot="R180"/>
-<element name="C2" library="SparkFun" package="CAP-PTH-SMALL" value="220uF" x="24.13" y="40.64" rot="R270"/>
-<element name="R19" library="SparkFun" package="AXIAL-0.3" value="220K" x="19.685" y="25.4" rot="R90"/>
-<element name="R20" library="SparkFun" package="AXIAL-0.3" value="220K" x="23.495" y="25.4" rot="R90"/>
-<element name="IC5" library="linear" package="DIL08" value="LM741P" x="31.75" y="38.1" rot="R180"/>
-<element name="R21" library="SparkFun" package="AXIAL-0.3" value="1K" x="16.51" y="16.51"/>
+<element name="R13" library="SparkFun" package="AXIAL-0.3" value="1.6Kohm" x="33.02" y="14.605">
+<attribute name="OC_NEWARK" value="unknown" x="33.02" y="14.605" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="33.02" y="14.605" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="33.02" y="14.605" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R14" library="SparkFun" package="AXIAL-0.3" value="1Kohm" x="59.69" y="38.1" rot="R270">
+<attribute name="OC_NEWARK" value="unknown" x="59.69" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="59.69" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="59.69" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R15" library="SparkFun" package="AXIAL-0.3" value="5Kohm" x="55.88" y="38.1" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="55.88" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="55.88" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="55.88" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R16" library="SparkFun" package="AXIAL-0.3" value="3Kohm" x="59.69" y="26.035" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="59.69" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="59.69" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="59.69" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R17" library="SparkFun" package="AXIAL-0.3" value="256K" x="39.37" y="22.86" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="39.37" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="39.37" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="39.37" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R18" library="SparkFun" package="AXIAL-0.3" value="1K" x="57.15" y="14.605" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="57.15" y="14.605" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="57.15" y="14.605" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="57.15" y="14.605" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="IC4" library="linear" package="DIL08" value="LM741P" x="47.625" y="27.305" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="47.625" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="47.625" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="47.625" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C2" library="SparkFun" package="CAP-PTH-SMALL" value="220uF" x="24.13" y="40.64" rot="R270">
+<attribute name="OC_NEWARK" value="39T8339" x="24.13" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="24.13" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="100PK220MEFC12.5X20" x="24.13" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R19" library="SparkFun" package="AXIAL-0.3" value="220K" x="19.685" y="25.4" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="19.685" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="19.685" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="19.685" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R20" library="SparkFun" package="AXIAL-0.3" value="220K" x="23.495" y="25.4" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="23.495" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="23.495" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="23.495" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="IC5" library="linear" package="DIL08" value="LM741P" x="31.75" y="38.1" rot="R180">
+<attribute name="OC_NEWARK" value="unknown" x="31.75" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="31.75" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="31.75" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R21" library="SparkFun" package="AXIAL-0.3" value="1K" x="16.51" y="16.51">
+<attribute name="OC_NEWARK" value="unknown" x="16.51" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="16.51" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="16.51" y="16.51" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

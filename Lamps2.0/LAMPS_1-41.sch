@@ -19299,8 +19299,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="12V-AUX" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="P+49" library="supply1" deviceset="+12V" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
-<part name="X2" library="con-phoenix-508" deviceset="MSTBA4" device=""/>
+<part name="12V" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
+<part name="12VOUT" library="con-phoenix-508" deviceset="MSTBA4" device=""/>
 <part name="IC4" library="ic-package" deviceset="DIL8" device="S" value="TLV5618"/>
 <part name="R1" library="pot" deviceset="TRIM_US-" device="B25P" value="20k"/>
 <part name="R3" library="pot" deviceset="TRIM_US-" device="B25P" value="1k"/>
@@ -19515,12 +19515,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="12V-AUX" gate="G$1" x="-116.84" y="45.72" rot="R180"/>
 <instance part="P+49" gate="1" x="-129.54" y="48.26"/>
 <instance part="GND39" gate="1" x="-129.54" y="40.64"/>
-<instance part="X1" gate="-1" x="-180.34" y="55.88"/>
-<instance part="X1" gate="-2" x="-180.34" y="48.26"/>
-<instance part="X2" gate="-1" x="-129.54" y="127" rot="R180"/>
-<instance part="X2" gate="-2" x="-129.54" y="132.08" rot="R180"/>
-<instance part="X2" gate="-3" x="-129.54" y="137.16" rot="R180"/>
-<instance part="X2" gate="-4" x="-129.54" y="142.24" rot="R180"/>
+<instance part="12V" gate="-1" x="-180.34" y="55.88"/>
+<instance part="12V" gate="-2" x="-180.34" y="48.26"/>
+<instance part="12VOUT" gate="-1" x="-129.54" y="127" rot="R180"/>
+<instance part="12VOUT" gate="-2" x="-129.54" y="132.08" rot="R180"/>
+<instance part="12VOUT" gate="-3" x="-129.54" y="137.16" rot="R180"/>
+<instance part="12VOUT" gate="-4" x="-129.54" y="142.24" rot="R180"/>
 <instance part="IC4" gate="G$1" x="-81.28" y="177.8"/>
 <instance part="R1" gate="G$1" x="-58.42" y="175.26" rot="R180"/>
 <instance part="R3" gate="G$1" x="-27.94" y="170.18"/>
@@ -19663,7 +19663,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <junction x="-149.86" y="48.26"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="D2" gate="1" pin="A"/>
-<pinref part="X1" gate="-2" pin="1"/>
+<pinref part="12V" gate="-2" pin="1"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="228.6" x2="129.54" y2="228.6" width="0.1524" layer="91"/>
@@ -19891,8 +19891,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="P+12" gate="1" pin="+12V"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 <pinref part="R25" gate="G$1" pin="1"/>
-<pinref part="X2" gate="-3" pin="1"/>
-<pinref part="X2" gate="-1" pin="1"/>
+<pinref part="12VOUT" gate="-3" pin="1"/>
+<pinref part="12VOUT" gate="-1" pin="1"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="132.08" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
@@ -20130,7 +20130,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <junction x="-160.02" y="139.7"/>
 <pinref part="Q2" gate="1" pin="D"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<pinref part="X2" gate="-2" pin="1"/>
+<pinref part="12VOUT" gate="-2" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -20142,7 +20142,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <junction x="-160.02" y="160.02"/>
 <pinref part="Q1" gate="1" pin="D"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
-<pinref part="X2" gate="-4" pin="1"/>
+<pinref part="12VOUT" gate="-4" pin="1"/>
 </segment>
 </net>
 <net name="D43" class="0">
@@ -20562,7 +20562,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <segment>
 <wire x1="-175.26" y1="55.88" x2="-162.56" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="F1" gate="A" pin="2"/>
-<pinref part="X1" gate="-1" pin="1"/>
+<pinref part="12V" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="D1" class="0">

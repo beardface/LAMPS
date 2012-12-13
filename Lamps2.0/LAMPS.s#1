@@ -19453,8 +19453,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <attribute name="OC_NEWARK" value="71C4161"/>
 </part>
 <part name="12VOUT" library="con-phoenix-508" deviceset="MSTBA4" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="FARNELL"/>
+<attribute name="MPN" value="1757268"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="IC4" library="ic-package" deviceset="DIL8" device="S" value="TLV5618">

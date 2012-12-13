@@ -8,10 +8,10 @@
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
@@ -1867,7 +1867,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="S1" library="switch-omron" package="B3F-31XX" value="" x="35.56" y="11.43">
 <attribute name="OC_NEWARK" value="unknown" x="-93.98" y="-107.95" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-93.98" y="-107.95" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B3F-3100" x="-93.98" y="-107.95" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="-93.98" y="-107.95" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="959704" x="-93.98" y="-107.95" size="1.778" layer="27" display="off"/>
 </element>
@@ -1920,9 +1920,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="OC_FARNELL" value="3705171" x="-91.44" y="-167.64" size="1.778" layer="27" display="off"/>
 </element>
 <element name="12VOUT" library="con-phoenix-508" package="MSTBA4" value="MSTBA4" x="2.54" y="19.05" smashed="yes" rot="R270">
-<attribute name="OC_NEWARK" value="unknown" x="-190.5" y="90.17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-190.5" y="90.17" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="" x="-190.5" y="90.17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="71C4163" x="-190.5" y="90.17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="1757268" x="-190.5" y="90.17" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="FARNELL" x="-190.5" y="90.17" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="3705195" x="-190.5" y="90.17" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="10.16" y="17.526" size="1.778" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="2.54" y="29.21" size="1.778" layer="27" ratio="10" rot="R270"/>

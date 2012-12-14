@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="145.356859mm" height="134.0mm"
+ viewBox="0 0 145.356859 134.0"
+ xmlns="http://www.w3.org/2000/svg" version="1.1"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<desc>Output from Flights of Ideas SVG Sketchup Plugin</desc>
+
+<g id="text_annotations" font-size="10" stroke="rgb(255,0,0)" stroke-width="1">
+</g>
+  <path id="face0-cut"
+ style="fill:none;stroke:rgb(0,0,255);stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round"
+        d="M 132.013166417558,104.0 L 132.013166417558,30.0 L 135.356859,30.0 L 135.356859,20.0301400000001 L 129.65,20.0301400000001 L 129.65,13.69014 L 135.356859,13.69014 L 135.356859,10.0 L 23.65,10.0 L 23.65,20.0301400000001 L 10.0,20.0301400000001 L 10.0,113.03014 L 23.65,113.03014 L 23.65,124.0 L 135.356859,124.0 L 135.356859,119.37014 L 129.65,119.37014 L 129.65,113.03014 L 135.356859,113.03014 L 135.356859,104.0 L 132.013166417558,104.0 "
+  />
+</svg>

@@ -1,0 +1,1 @@
+cut one of every part using 1/4" clear acrylic, except for vat_side.svg... you need two of those.

@@ -45,6 +45,9 @@ Use 1/4" Clear (Transparent) Acrylic for the VAT!
 
 ##Non-Printed Parts
 * 1x NEMA 17 Stepper Motor (Low Profile!)
+* 2x 8mm Smooth Rod (~260mm)
+* 1x 8mm Threaded Rod (~260mm) and 2-M8 nuts
+* 2x LM8UU Bearings
 * 1x LAMPS Electronics Kit (w/Pololu and 2x endstops)
 * 1x LAMPS Musimi 2020 Rail Kit and connectors
 * 1x LAMPS Enclsoure & Hatch Kit

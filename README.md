@@ -1,6 +1,6 @@
 LAMPS - The Open Hardware SLA Printer
 -------------------------------------
-LAMPS(LAP) (Laser Arduino Mega Pololu Shield|SLA Printer) is an open control board and SLA printer design.  The SLA Printer strives to be a low-cost, small footprint (It is only 200mmx350mm!), highly capable SLA Printer. The build platform size is currently 80mmx80mm, but could probably be increased by someone who is motivated to enhance the design.
+LAMPS (Laser Arduino Mega Pololu Shield|SLA Printer) is an open control board and SLA printer design.  The SLA Printer strives to be a low-cost, small footprint (It is only 200mmx350mm!), highly capable SLA Printer. The build platform size is currently 80mmx80mm, but could probably be increased by someone who is motivated to enhance the design.
 
 #License
 The entire lamps project (PCB, Source Code, Design Files... EVERYTHING) is licensed under the Creative Commons - Attribution Non Commercial Share Alike (3.0) (CC BY-NC-SA 3.0). http://creativecommons.org/licenses/by-nc-sa/3.0/
@@ -16,7 +16,7 @@ Version 1.0 of the LAMPS board has been manufactured and tested... I found a few
 The firmware for LAMPS is a fork of Marlin (The best open source RepRap firmware I know of), and can be found here: https://github.com/beardface/Marlin-LAMPS
 The firmware is very much an active work-in-progress, and I encourage you to fork, and contribute.
 
-#LAMPSLAp Parts
+#LAMPS Printer Parts
 All of the parts are available as sketchup (skp) and stl files.
 
 ##Printed Parts

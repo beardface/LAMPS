@@ -22,7 +22,7 @@ All of the parts are available as sketchup (skp) and stl files.
 ##Printed Parts
 * 1x [Laser Mount](https://github.com/beardface/LAMPS/blob/master/parts/lasermount.stl)
 * 1x [Mirror Mount](https://github.com/beardface/LAMPS/blob/master/parts/mirrormount.stl)
-* 4x [Vibrating Vat](Mount https://github.com/beardface/LAMPS/blob/master/parts/vibrating_vat_mount.stl)
+* 4x [Vibrating Vat Mount](Mount https://github.com/beardface/LAMPS/blob/master/parts/vibrating_vat_mount.stl)
 * 1x [Z-Axis Top Mount](https://github.com/beardface/LAMPS/blob/master/parts/z_top_mount.stl)
 * 1x [Z-Axis Bottom Mount](https://github.com/beardface/LAMPS/blob/master/parts/z_bottom_mount.stl)
 * 1x [Build Platform Mount](https://github.com/beardface/LAMPS/blob/master/parts/platform_mount.stl)

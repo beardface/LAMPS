@@ -1,6 +1,6 @@
 LAMPS - The Open Hardware SLA Printer
 -------------------------------------
-LAMPS is an open control board and SLA printer design.  
+LAMPS is an open control board and SLA printer design.  The SLA Printer strives to be a low-cost, small footprint (It is only 200mmx350mm!), highly capable SLA Printer. The build platform size is currently 80mmx80mm, but could probably be increased by someone who is motivated to enhance the design.
 
 #License
 The entire lamps project (PCB, Source Code, Design Files... EVERYTHING) is licensed under the Creative Commons - Attribution Non Commercial Share Alike (3.0) (CC BY-NC-SA 3.0). http://creativecommons.org/licenses/by-nc-sa/3.0/
@@ -27,6 +27,7 @@ All of the parts are available as sketchup (skp) and stl files.
 * 1x [Z-Axis Bottom Mount](https://github.com/beardface/LAMPS/blob/master/parts/z_bottom_mount.stl)
 * 1x [Build Platform Mount](https://github.com/beardface/LAMPS/blob/master/parts/platform_mount.stl)
 * 1x [Build Stage](https://github.com/beardface/LAMPS/blob/master/parts/build_platform_connector.stl)
+* 1x Endstop Mount
 
 ##Laser Cut Parts
 ###Platform
@@ -46,6 +47,7 @@ Use 1/4" Clear (Transparent) Acrylic for the VAT!
 * 1x NEMA 17 Stepper Motor (Low Profile!)
 * 1x LAMPS Electronics Kit (w/Pololu and 2x endstops)
 * 1x LAMPS Musimi 2020 Rail Kit and connectors
+* 1x LAMPS Enclsoure & Hatch Kit
 * 1x 405nm Laser (20mw-150mw) -- Build properties/cure time/etc... vary by laser!
 * 1x 3" Square Mirror
 * 1x Laser Galvo Set (20kpps) w/power supply

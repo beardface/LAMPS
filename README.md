@@ -55,6 +55,21 @@ Use 1/4" Clear (Transparent) Acrylic for the VAT!
 * 1x 3" Square Mirror
 * 1x Laser Galvo Set (20kpps) w/power supply
 * 1x +/-12V Power Supply (~1-3Amps)
+* USB Cable
+* Power Cable
 * Screws, Nuts, Wires, Solder, Patience
 
+##Optional (But Useful) Non-Printed Parts
+* 1xLCD Screen
+* 1xSD Card Reader (and corresponding circuit... T.B.D.)
+* 1x Power Switch (110-250VAC), lighted
+* 1x Power Terminal (Two combine power into single input)
+* 1x 3-Prong Power Jack
+ 
 ###LAMPS IS A WORK IN PROGRESS.
+
+##Some words of Caution
+* Careful with 110-250VAC, it can --bite-- Seriously Harm you if you aren't careful
+* Some 405nm Resins can be toxic while curing- take the appropriate measures to ensure you are working in a well ventelated room
+
+~LAMPS design, details, and parts list are provided without any warranty or gaurantee- this is a community project, so lets work together to solve issues that may arise!

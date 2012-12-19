@@ -34,6 +34,7 @@ All of the parts are available as sketchup (skp) and stl files.
 Use 3/16"-1/4" thick acrylic for the platforms.
 * 1x [Vat Platform](https://github.com/beardface/LAMPS/blob/master/parts/top_platform.svg)
 * 1x [Component Platform](https://github.com/beardface/LAMPS/blob/master/parts/bottom_platform.svg)
+* 1x 80mmx80mm 1/4"Acryilc Stage Mount (leftover part from cutting of top_platform)
 
 ###VAT
 Use 1/4" Clear (Transparent) Acrylic for the VAT!

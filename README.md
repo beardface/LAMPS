@@ -50,9 +50,9 @@ Use 1/4" Clear (Transparent) Acrylic for the VAT!
 * 2x LM8UU Bearings
 * 1x LAMPS Electronics Kit (w/Pololu and 2x endstops)
 * 1x LAMPS Musimi 2020 Rail Kit and connectors
-* * 4x  350mm 2020 Extrusions w/end tapping holes
-* * 11x 160mm 2020 Extrusions
-* * 1x  110mm 2020 Extrusion
+** 4x  350mm 2020 Extrusions w/end tapping holes
+** 11x 160mm 2020 Extrusions
+** 1x  110mm 2020 Extrusion
 * 1x LAMPS Enclsoure & Hatch Kit
 * 1x 405nm Laser (20mw-150mw) -- Build properties/cure time/etc... vary by laser!
 * 1x 3" Square Mirror

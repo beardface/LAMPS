@@ -19643,11 +19643,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="R27" library="adafruit" deviceset="R-US_" device="R0805" value="1K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="1K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -20177,11 +20172,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <attribute name="OC_NEWARK" x="-78.74" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-78.74" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-78.74" y="210.82" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R27" gate="G$1" x="-96.52" y="228.6" rot="R180">
-<attribute name="OC_NEWARK" x="-96.52" y="228.6" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-96.52" y="228.6" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-96.52" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="-96.52" y="210.82" rot="R180">
 <attribute name="OC_NEWARK" x="-96.52" y="210.82" size="1.778" layer="96" display="off"/>
@@ -20908,8 +20898,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="U1" gate="G$1" pin="D31"/>
 </segment>
 <segment>
-<pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="-101.6" y1="228.6" x2="-104.14" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="228.6" x2="-104.14" y2="228.6" width="0.1524" layer="91"/>
 <label x="-104.14" y="228.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -21882,13 +21871,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="15.24" y1="246.38" x2="27.94" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="!!!SCHEMATICDOESNOTREFLECTDESIGN" gate="A1" pin="GND"/>
 <wire x1="27.94" y1="246.38" x2="27.94" y2="213.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="R27" gate="G$1" pin="1"/>
-<pinref part="LEDA" gate="G$1" pin="1"/>
-<wire x1="-91.44" y1="228.6" x2="-86.36" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">

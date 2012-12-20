@@ -19399,7 +19399,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="S1" library="switch-omron" deviceset="31-XX" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="B3F-3100"/>
+<attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="4.7K">
@@ -19455,7 +19455,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="12VOUT" library="con-phoenix-508" deviceset="MSTBA4" device="">
 <attribute name="MF" value="FARNELL"/>
 <attribute name="MPN" value="1757268"/>
-<attribute name="OC_NEWARK" value="71C4163"/>
+<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="IC4" library="ic-package" deviceset="DIL8" device="S" value="TLV5618">
 <attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS"/>

@@ -1,0 +1,6 @@
+[submodule "Marlin-LAMPS"]
+	path = Marlin-LAMPS
+	url = git://github.com/beardface/Marlin-LAMPS.git
+[submodule "firmware/Marlin-LAMPS"]
+	path = firmware/Marlin-LAMPS
+	url = git://github.com/beardface/Marlin-LAMPS.git

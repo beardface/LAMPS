@@ -6,3 +6,15 @@
 *Locate 12V, 5V, TTL by each other (Laser Control)
 *Remove LEDA (Current Laser) Use, 5V instead
 *Change THAT mounts to through hole, reposition
+*Clean up text, reposition
+*Remove unused pin on end stops to remove confusion
+
+=Build PCB
+*Remove outer edget with holes
+
+=Parts
+*Resize hole for top platform for bottom z axis mount
+*Make the motor mount thicker for the bottom z axis mount
+*Create Holes for the vibrating vat mounts
+*Create Holes to mount top platform to musumi rails
+

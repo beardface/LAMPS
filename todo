@@ -8,6 +8,8 @@
 *Change THAT mounts to through hole, reposition
 *Clean up text, reposition
 *Remove unused pin on end stops to remove confusion
+** Remove SD Connection, use SPI pins for Laser Galvo Control
+** Fix T2_6 and T2_5 circuit
 
 =Build PCB
 *Remove outer edget with holes

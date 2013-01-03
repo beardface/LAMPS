@@ -1,4 +1,5 @@
 
+//#define WIBLOCKS
 
 #ifdef WIBLOCKS
 #include "SPI.h"
@@ -7,6 +8,8 @@
 #include "Spi2.h"
 #endif
 #define laserEn 31    // laser enable signal
+
+#include <math.h>
 
 #define SS_PIN 53 //16    // Control Signal (53)
 
@@ -36,60 +39,60 @@ void setup()
   //clr=SPDR;
 
   delay(10);
-  setCoords(0,0,scaleX,scaleY,OffsetX,OffsetY);    // setCoords(x, y, laserEn);
+  setCoords(2048,2048,scaleX,scaleY,OffsetX,OffsetY);    // setCoords(x, y, laserEn);
+}
+
+void circleSimple(int radius)
+{
+    int x, y, r2;
+    
+    r2 = radius * radius;
+    for (x = -radius; x <= radius; x++) {
+        y = (int) (sqrt(r2 - x*x) + 0.5);
+        setCoords(x+2000,y+2000,1,1,0,0);
+    }
+    
+    for (x = -radius; x <= radius; x++) {
+        y = (int) (sqrt(r2 - x*x) + 0.5);
+        setCoords(x+2000,2000-y,1,1,0,0);
+    }
 }
 
 void loop()
 { 
-  digitalWrite(laserEn,0);
-  return;
+  int maxv = 4028;
+  int inca = 10;
+  int del = 0;
+  int repeat = 2;
+  digitalWrite(laserEn,1);
+//  delay(5);
+//  digitalWrite(laserEn,1);
 
-  int t_x = 0;
-  int t_y = 0;
-  for(int m=0; m < 2; m++)
-  {
-    for(int v=1; v < 4095; v+=2)
+  int line_gain = 1000;
+  
+  //This draws a centered point... how to move it though?
+   // Centered b/c it fluxates the dot fast enough near this point.
+    for(int x = 0; x < maxv; x+=line_gain)
     {
-      switch (m)
-      {
-      case 0:
-        t_x = 1;
-        t_y = v;
-        break;
-      case 1:
-        t_x = 1;
-        t_y = 4095-v;
-        break;
-      case 2:
-        t_x = 4094;
-        t_y = (4095-v);
-        break;
-      case 3:
-        t_x = (4095-v);
-        t_y = 1;
-        break;
-      default:
-        break;
-      }
-      digitalWrite(laserEn,0);
-      setCoords(t_x,t_y,scaleX,scaleY,OffsetX,OffsetY);    // setCoords(x, y, laserEn);
-      delayMicroseconds(500);
-      digitalWrite(laserEn,1);
-      delay(1);
+        setCoords(x,x,1,1,0,0);
     }
-  }
+    for(int x = maxv; x > 0; x-=line_gain)
+    {
+        setCoords(maxv-x,maxv-(x),1,1,0,0);
+    }
 }
 
 void setCoords(int x, int y, int i_scaleX, int i_scaleY, int i_OffsetX, int i_OffsetY)
 {
-  x = (x*i_scaleX) - i_OffsetX;
-  y = (y*i_scaleY) - i_OffsetY;
+  x = (x*2*i_scaleX) - i_OffsetX;
+  y = (y*2*i_scaleY) - i_OffsetY;
 
   if (x > 0 && x < 4095)
   {
 #ifdef WIBLOCKS
     dac.set_code(DAC_WRITE_BUFFER, x);
     dac.set_code(DAC_WRITE_B_AND_BUFFER, y);
+    delay(100);
 #else  
     digitalWrite(SS_PIN, LOW);
     Spi.transfer((0x5*16)|(x/256));
@@ -107,6 +110,7 @@ void setCoords(int x, int y, int i_scaleX, int i_scaleY, int i_OffsetX, int i_Of
     Spi.transfer((0xC*16)|(y/256));
     Spi.transfer(y & 0xFF);
     digitalWrite(SS_PIN, HIGH);
+  //  delay(4);
 #endif
   }
 

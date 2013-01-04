@@ -1,16 +1,24 @@
 
 //#define WIBLOCKS
-
+/*
 #ifdef WIBLOCKS
 #include "SPI.h"
 #include "DAC.h"
 #else
 #include "Spi2.h"
 #endif
-#define laserEn 31    // laser enable signal
+*/
 
 #include <math.h>
 
+//------------------------------
+// DAC Data Transfer
+#define SLAVESELECT 53 // CS
+#define DATAOUT 51 // DIN
+#define SPICLOCK 52 // SCLK
+//-------------------------------
+
+#define laserEn 31    // laser enable signal
 #define SS_PIN 53 //16    // Control Signal (53)
 
 //------ Controls -------------------------
@@ -34,60 +42,133 @@ void setup()
   Serial.begin(9600);
   pinMode(laserEn, OUTPUT);
 
+/*
   SPCR = (1<<SPE)|(1<<MSTR)|(1<<CPHA);
   //clr=SPSR;
   //clr=SPDR;
 
   delay(10);
   setCoords(2048,2048,scaleX,scaleY,OffsetX,OffsetY);    // setCoords(x, y, laserEn);
+*/
+// Setup SPI Interface code BEGIN /////////////////////////////////////////// 
+
+byte clr;
+pinMode(DATAOUT, OUTPUT);
+pinMode(SPICLOCK,OUTPUT);
+pinMode(SLAVESELECT,OUTPUT);
+
+digitalWrite(SLAVESELECT,HIGH); //disable device
+
+//The SPI control register (SPCR) has 8 bits, each of which control a particular SPI setting.
+
+// SPCR
+// | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |0000000000000000000
+// | SPIE | SPE | DORD | MSTR | CPOL | CPHA | SPR1 | SPR0 |
+
+// SPIE - Enables the SPI interrupt when 1
+// SPE - Enables the SPI when 1
+// DORD - Sends data least Significant Bit First when 1, most Significant Bit first when 0
+// MSTR - Sets the Arduino in master mode when 1, slave mode when 0
+// CPOL - Sets the data clock to be idle when high if set to 1, idle when low if set to 0
+// CPHA - Samples data on the falling edge of the data clock when 1, rising edge when 0'
+// SPR1 and SPR0 - Sets the SPI speed, 00 is fastest (4MHz) 11 is slowest (250KHz)
+
+SPCR = (1<<SPE)|(1<<MSTR)|(1<<CPHA);
+clr=SPSR;
+clr=SPDR;
+delay(10);
 }
 
-void circleSimple(int radius)
+/////////////////////////////////////////////////////////////////////
+// DAC SPI Interface
+char spi_transfer(volatile char data)
 {
-    int x, y, r2;
-    
-    r2 = radius * radius;
-    for (x = -radius; x <= radius; x++) {
-        y = (int) (sqrt(r2 - x*x) + 0.5);
-        setCoords(x+2000,y+2000,1,1,0,0);
-    }
-    
-    for (x = -radius; x <= radius; x++) {
-        y = (int) (sqrt(r2 - x*x) + 0.5);
-        setCoords(x+2000,2000-y,1,1,0,0);
-    }
+SPDR = data; // Start the transmission
+while (!(SPSR & (1<<SPIF))) // Wait the end of the transmission
+{
+};
+return SPDR; // return the received byte
+}
+
+/////////////////////////////////////////////////////////////////////
+// Set the voltage on the 12bit DAC
+byte SetXVoltage(short Voltage)
+{
+digitalWrite(SLAVESELECT,LOW);
+
+//2 byte opcode -- for some reason we have to do this twice to make it stick with the TLV5618
+spi_transfer(Voltage>>8);
+spi_transfer(Voltage);
+
+spi_transfer(Voltage>>8);
+spi_transfer(Voltage);
+
+digitalWrite(SLAVESELECT,HIGH); //release chip, signal end transfer
+}
+
+byte SetYVoltage(short Voltage)
+{
+Voltage = Voltage | 32768; // Use DAC A
+
+digitalWrite(SLAVESELECT,LOW);
+
+//2 byte opcode -- for some reason we have to do this twice to make it stick with the TLV5618
+spi_transfer(Voltage>>8);
+spi_transfer(Voltage);
+
+spi_transfer(Voltage>>8);
+spi_transfer(Voltage);
+
+digitalWrite(SLAVESELECT,HIGH); //release chip, signal end transfer
 }
 
 void loop()
 { 
   int maxv = 4028;
   int inca = 10;
-  int del = 0;
+  int del = 8;
+  int ldel = 2;
   int repeat = 2;
-  digitalWrite(laserEn,1);
 //  delay(5);
 //  digitalWrite(laserEn,1);
-
-  int line_gain = 1000;
   
-  //This draws a centered point... how to move it though?
-   // Centered b/c it fluxates the dot fast enough near this point.
-    for(int x = 0; x < maxv; x+=line_gain)
-    {
-        setCoords(x,x,1,1,0,0);
-    }
-    for(int x = maxv; x > 0; x-=line_gain)
-    {
-        setCoords(maxv-x,maxv-(x),1,1,0,0);
-    }
+  int squareheight = 600; //4094
+  int line_gain = 10;
+
+   digitalWrite(laserEn,1);
+   
+   int minv=400;
+   for(int i = minv; i < 4096; i+=inca)
+   {
+     setCoords(minv,i, scaleX,scaleY,OffsetX,OffsetY);  
+   }
+
+   for(int i = minv; i < 4096; i+=inca)
+   {
+     setCoords(i,4095, scaleX,scaleY,OffsetX,OffsetY);  
+   }
+
+   for(int i = minv; i < 4096; i+=inca)
+   {
+     setCoords(4095,4095-i, scaleX,scaleY,OffsetX,OffsetY);  
+   }
+
+   for(int i = minv; i < 4096; i+=inca)
+   {
+     setCoords(4095-i,minv, scaleX,scaleY,OffsetX,OffsetY);  
+   }
+   
 }
 
 void setCoords(int x, int y, int i_scaleX, int i_scaleY, int i_OffsetX, int i_OffsetY)
 {
+  SetXVoltage(x);
+  SetYVoltage(y);
+  /*
   x = (x*2*i_scaleX) - i_OffsetX;
   y = (y*2*i_scaleY) - i_OffsetY;
 
-  if (x > 0 && x < 4095)
+ // if (x > 0 && x < 4095)
   {
 #ifdef WIBLOCKS
     dac.set_code(DAC_WRITE_BUFFER, x);
@@ -113,6 +194,7 @@ void setCoords(int x, int y, int i_scaleX, int i_scaleY, int i_OffsetX, int i_Of
   //  delay(4);
 #endif
   }
+  */
 
 }
 

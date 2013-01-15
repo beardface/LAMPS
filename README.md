@@ -59,6 +59,10 @@ Use 1/4" Clear (Transparent) Acrylic for the VAT!
 * 1x 405nm Laser (20mw-150mw) -- Build properties/cure time/etc... vary by laser!
 * 1x 3" Square Mirror
 * 1x Laser Galvo Set (20kpps) w/power supply
+ * Resistance Configuration (Note to Self)
+  * AXIS  |  SIZE     | GAIN      | LF         | HF        | LINEAR
+  * X     |  4.96Kohm | 4.68 Kohm | 26.36 Kohm | 4.78 Kohm | 1.75 Kohm
+  * Y     |  6.1Kohm  | 4.18 Kohm | 26.47 Kohm | 4.37 Kohm | 2.3 Kohm
 * 1x +/-12V Power Supply (~1-3Amps)
 * USB Cable
 * Power Cable

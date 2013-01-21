@@ -15,23 +15,36 @@ void setup() {
 }
 
 void loop() {
+  return;
   digitalWrite(34, HIGH);   // set the LED on
   digitalWrite(36, HIGH);   // set the LED on
+  digitalWrite(32, HIGH);   // set the LED on
+  digitalWrite(38, HIGH);   // set the LED on
   delay(500);              // wait for a second
   digitalWrite(34, LOW);    // set the LED offnd
   digitalWrite(36, LOW);    // set the LED off
+  digitalWrite(32, LOW);   // set the LED on
+  digitalWrite(38, LOW);   // set the LED on
   delay(500);              // wait for a second
   digitalWrite(34, HIGH);   // set the LED on
   digitalWrite(36, HIGH);   // set the LED on
+  digitalWrite(32, HIGH);   // set the LED on
+  digitalWrite(38, HIGH);   // set the LED on
   delay(500);              // wait for a second
   digitalWrite(34, LOW);    // set the LED offnd
   digitalWrite(36, LOW);    // set the LED off
+  digitalWrite(32, LOW);   // set the LED on
+  digitalWrite(38, LOW);   // set the LED on
   delay(500);              // wait for a second
   digitalWrite(34, HIGH);   // set the LED on
   digitalWrite(36, HIGH);   // set the LED on
+  digitalWrite(32, HIGH);   // set the LED on
+  digitalWrite(38, HIGH);   // set the LED on
   delay(500);              // wait for a second
   digitalWrite(34, LOW);    // set the LED offnd
   digitalWrite(36, LOW);    // set the LED off
+  digitalWrite(32, LOW);   // set the LED on
+  digitalWrite(38, LOW);   // set the LED on
   delay(100);              // wait for a second
   delay(5000);              // wait for a second
 }

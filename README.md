@@ -3,9 +3,7 @@ LAMPS - The Open Hardware SLA Printer
 LAMPS (Laser Arduino Mega Pololu Shield|SLA Printer) is an open control board and SLA printer design.  The SLA Printer strives to be a low-cost, small footprint (It is only 200mmx350mm!), highly capable SLA Printer. The build platform size is currently 80mmx80mm, but could probably be increased by someone who is motivated to enhance the design.
 
 #License
-The entire lamps project (PCB, Source Code, Design Files... EVERYTHING) is licensed under the Creative Commons - Attribution Non Commercial Share Alike (3.0) (CC BY-NC-SA 3.0). http://creativecommons.org/licenses/by-nc-sa/3.0/
-
-That means you can use my design, but you are not allowed to profit or sell any part of it.  If you are looking for an exception, contact me and I'll take it under consideration.
+The entire lamps project (PCB, Source Code, Design Files... EVERYTHING) is licensed under the GPL.
 
 #LAMPS Board
 LAMPS is the PCB control board that rides on top of an Arduino Mega 2560.  It provides Galvanometer control (Through 12 bit DACs).  It also controls the laser, buttons, Z Stepper Motor (Through Pololu Carrier), End Stops, LEDs, etc...  (It is the Brainz).

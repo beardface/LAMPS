@@ -14,7 +14,7 @@ Version 1.0 of the LAMPS board has been manufactured and tested... I found a few
 The firmware for LAMPS is a fork of Marlin (The best open source RepRap firmware I know of), and can be found here: https://github.com/beardface/Marlin-LAMPS
 The firmware is very much an active work-in-progress, and I encourage you to fork, and contribute.
 
-#LAMPS Printer Parts
+#LAMPS Printer Parts -WARNING... THIS IS NOT UP TO DATE-
 All of the parts are available as sketchup (skp) and stl files.
 
 ##Printed Parts

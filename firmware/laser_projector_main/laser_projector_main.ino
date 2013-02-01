@@ -80,7 +80,7 @@ void spi_transfer(int channel, unsigned int data){
 
 void loop()
 { 
-  return;
+  //return;
   
   int maxv = 4028;
   int inca = 10;
@@ -93,28 +93,21 @@ void loop()
   int squareheight = 600; //4094
   int line_gain = 10;
 
+   int minv=600;
+   
    digitalWrite(laserEn,1);
    
-   int minv=600;
-   for(int i = minv; i < 4096; i+=inca)
-   {
-     setCoords(minv,i);  
-   }
-
-   for(int i = minv; i < 4096; i+=inca)
-   {
-     setCoords(i,4095);  
-   }
-
-   for(int i = 1; i < 4096-minv; i+=inca)
-   {
-     setCoords(4095,4095-i);  
-   }
-
-   for(int i = 1; i < 4096-minv; i+=inca)
-   {
-     setCoords(4095-i,minv);  
-   }
+   setCoords(0,0);  
+     
+   delay(3000);
+   
+   setCoords(2048,2048);  
+   
+   delay(3000);
+   
+   setCoords(4095,4095);  
+   
+   delay(3000);
    
    for(int i = minv; i < 4096; i+=inca)
    {
@@ -125,7 +118,7 @@ void loop()
    {
      setCoords(4095-i,4095-i);  
    }
-   
+
 }
 
 void setCoords(int x, int y)

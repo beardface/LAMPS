@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>sLAMPS: Open High Resolution Stereolithography, For Everyone by beardface</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/beardface/LAMPS">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/beardface/LAMPS/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/beardface/LAMPS/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>sLAMPS: Open High Resolution Stereolithography, For Everyone</h1>
+          <p></p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/beardface">beardface</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>LAMPS - The Open Hardware SLA Printer</h2>
+
+<p>LAMPS (Laser Arduino Mega Pololu Shield|SLA Printer) is an open control board and SLA printer design.  The SLA Printer strives to be a low-cost, small footprint (It is only 200mmx350mm!), highly capable SLA Printer. The build platform size is currently 80mmx80mm, but could probably be increased by someone who is motivated to enhance the design.</p>
+
+<h1>License</h1>
+
+<p>The entire lamps project (PCB, Source Code, Design Files... EVERYTHING) is licensed under the GPL.</p>
+
+<h1>LAMPS Board</h1>
+
+<p>LAMPS is the PCB control board that rides on top of an Arduino Mega 2560.  It provides Galvanometer control (Through 12 bit DACs).  It also controls the laser, buttons, Z Stepper Motor (Through Pololu Carrier), End Stops, LEDs, etc...  (It is the Brainz).</p>
+
+<p>Version 1.0 of the LAMPS board has been manufactured and tested... I found a few issues with the board and am currently redesigning and removing a few unnecessary components for 1.1. Release date T.B.D.</p>
+
+<h1>Firmware</h1>
+
+<p>The firmware for LAMPS is a fork of Marlin (The best open source RepRap firmware I know of), and can be found here: <a href="https://github.com/beardface/Marlin-LAMPS">https://github.com/beardface/Marlin-LAMPS</a>
+The firmware is very much an active work-in-progress, and I encourage you to fork, and contribute.</p>
+
+<h1>LAMPS Printer Parts -WARNING... THIS IS NOT UP TO DATE-</h1>
+
+<p>All of the parts are available as sketchup (skp) and stl files.</p>
+
+<h2>Printed Parts</h2>
+
+<ul>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/lasermount.stl">Laser Mount</a>
+</li>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/mirrormount.stl">Mirror Mount</a>
+</li>
+<li>4x <a href="https://github.com/beardface/LAMPS/blob/master/parts/vibrating_vat_mount.stl">Vibrating Vat Mount</a>
+</li>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/z_top_mount.stl">Z-Axis Top Mount</a>
+</li>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/z_bottom_mount.stl">Z-Axis Bottom Mount</a>
+</li>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/platform_mount.stl">Build Platform Mount</a>
+</li>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/build_platform_connector.stl">Build Stage</a>
+</li>
+<li>1x Endstop Mount</li>
+</ul><h2>Laser Cut Parts</h2>
+
+<h3>Platform</h3>
+
+<p>Use 3/16"-1/4" thick acrylic for the platforms.</p>
+
+<ul>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/top_platform.svg">Vat Platform</a>
+</li>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/bottom_platform.svg">Component Platform</a>
+</li>
+<li>1x 80mmx80mm 1/4"Acryilc Stage Mount (leftover part from cutting of top_platform)</li>
+</ul><h3>VAT</h3>
+
+<p>Use 1/4" Clear (Transparent) Acrylic for the VAT!</p>
+
+<ul>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/vat_design/vat_back.svg">Vat Back</a>
+</li>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/vat_design/vat_front.svg">Vat Front</a>
+</li>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/vat_design/vat_bottom.svg">Vat Bottom</a>
+</li>
+<li>1x <a href="https://github.com/beardface/LAMPS/blob/master/parts/vat_design/vat_handle.svg">Vat Handle</a>
+</li>
+<li>2x <a href="https://github.com/beardface/LAMPS/blob/master/parts/vat_design/vat_side.svg">Vat Sides</a>
+</li>
+</ul><h2>Non-Printed Parts</h2>
+
+<ul>
+<li>1x NEMA 17 Stepper Motor (Low Profile!)</li>
+<li>2x 8mm Smooth Rod (~260mm)</li>
+<li>1x 8mm Threaded Rod (~260mm) and 2-M8 nuts</li>
+<li>4x LM8UU Bearings</li>
+<li>1x LAMPS Electronics Kit (w/Pololu and 2x endstops)</li>
+<li>1x LAMPS PCB Build Platform</li>
+<li>1x LAMPS Musimi 2020 Rail Kit and connectors
+
+<ul>
+<li>4x  350mm 2020 Extrusions w/end tapping holes</li>
+<li>11x 160mm 2020 Extrusions</li>
+<li>1x  110mm 2020 Extrusion</li>
+</ul>
+</li>
+<li>1x LAMPS Enclsoure &amp; Hatch Kit</li>
+<li>1x 405nm Laser (20mw-150mw) -- Build properties/cure time/etc... vary by laser!</li>
+<li>1x 3" Square Mirror</li>
+<li>1x Laser Galvo Set (20kpps) w/power supply
+
+<ul>
+<li>Resistance Configuration (Note to Self)</li>
+<li>AXIS  |  SIZE     | GAIN      | LF         | HF        | LINEAR</li>
+<li>X     |  4.96Kohm | 4.68 Kohm | 26.36 Kohm | 4.78 Kohm | 1.75 Kohm</li>
+<li>Y     |  6.1Kohm  | 4.18 Kohm | 26.47 Kohm | 4.37 Kohm | 2.3 Kohm</li>
+</ul>
+</li>
+<li>1x +/-12V Power Supply (~1-3Amps)</li>
+<li>USB Cable</li>
+<li>Power Cable</li>
+<li>Screws, Nuts, Wires, Solder, Patience</li>
+</ul><h2>Optional (But Useful) Non-Printed Parts</h2>
+
+<ul>
+<li>1xLCD Screen</li>
+<li>1xSD Card Reader (and corresponding circuit... T.B.D.)</li>
+<li>1x Power Switch (110-250VAC), lighted</li>
+<li>1x Power Terminal (Two combine power into single input)</li>
+<li>1x 3-Prong Power Jack</li>
+</ul><h3>LAMPS IS A WORK IN PROGRESS.</h3>
+
+<h2>Some words of Caution</h2>
+
+<ul>
+<li>Careful with 110-250VAC, it can --bite-- Seriously Harm you if you aren't careful</li>
+<li>Some 405nm Resins can be toxic while curing- take the appropriate measures to ensure you are working in a well ventelated room</li>
+</ul><p>~LAMPS design, details, and parts list are provided without any warranty or gaurantee- this is a community project, so lets work together to solve issues that may arise!</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>

@@ -1,0 +1,66 @@
+Partlist exported from /Users/justinhawkins/Development/LAMPS/pcb_design/OpenSL_1.0/usbl.sch at 3/5/13 9:38 PM
+
+Part Value       Device         Package          Description                           MF MPN OC_FARNELL OC_NEWARK
+C1   1u          C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C2   0.1u        C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C3               C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C4   0.1u        C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C5   0.1u        C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C6   0.1u        C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C7               C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C8               C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C9   20p         C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C10  20p         C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C11  0.1u        C-EUC0603      C0603            CAPACITOR, European symbol                                       
+C12  0.01u       C-EUC0603      C0603            CAPACITOR, European symbol                                       
+C13  0.1u        C-EUC0603      C0603            CAPACITOR, European symbol                                       
+C14              CPOL-EUD       PANASONIC_D      POLARIZED CAPACITOR, European symbol                             
+C15  10u         C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+C16  10u         C-EUC0603K     C0603K           CAPACITOR, European symbol                                       
+D1   CGRM4001-G  CGRM4001-G     SOD-123_MINI-SMA Molded plasitc,JEDEC SOD-123/Mini SMA                            
+D2   CGRM4001-G  CGRM4001-G     SOD-123_MINI-SMA Molded plasitc,JEDEC SOD-123/Mini SMA                            
+D3               DIODE-SOD323-R SOD323-R         DIODE                                                            
+IC1  ULN2003AD   ULN2003AD      SO16             DRIVER ARRAY                                                     
+JP1              PINHD-1X4      1X04             PIN HEADER                                                       
+JP2              JP1E           JP1              JUMPER                                                           
+JP3              JP1E           JP1              JUMPER                                                           
+JP4              JP2E           JP2              JUMPER                                                           
+JP5              JP1E           JP1              JUMPER                                                           
+R1   43k         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R2   100k        R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R3   100k        R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R4   43k         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R5   100k        R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R6   43k         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R7   43k         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R8   100k        R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R9   100k        R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R10  100k        R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R11  22R         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R12  22R         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R13  43k         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R14  43k         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R15  43k         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R16              R-EU_R0805     R0805            RESISTOR, European symbol                                        
+R17              R-EU_R0805     R0805            RESISTOR, European symbol                                        
+R18  43k         R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R19  100k        R-EU_R0603     R0603            RESISTOR, European symbol                                        
+R20  100k        R-EU_R0603     R0603            RESISTOR, European symbol                                        
+SV1              MA03-1         MA03-1           PIN HEADER                                   unknown    unknown  
+SV2              MA03-1         MA03-1           PIN HEADER                                   unknown    unknown  
+SV3              MA03-1         MA03-1           PIN HEADER                                   unknown    unknown  
+SV4              MA08-2         MA08-2           PIN HEADER                                   unknown    unknown  
+SV5              MA07-2         MA07-2           PIN HEADER                                   unknown    unknown  
+SV6              MA05-2         MA05-2           PIN HEADER                                   unknown    unknown  
+SV7              MA07-2         MA07-2           PIN HEADER                                   unknown    unknown  
+SV8              MA03-2         MA03-2           PIN HEADER                                   unknown    unknown  
+U$1  AT90USB1286 AT90USB1286    TQFP64                                                                            
+U$2  AD5206      AD5206         TSSOP24                                                                           
+U$3  OPA4171     OPA4171        TSSOP14                                                                           
+U$4  TXC7A       TXC7A          TXC7A                                                                             
+U$5  MICROUSB    MICROUSB       MICROUSB                                                                          
+U$6  OMRONLED    OMRONLED       OMRONLED                                                                          
+U$7  DRV8825     DRV8825        ETSSOP28                                                                          
+U$8  VREG        VREG           SOT223                                                                            
+U$9  BSD816SN    BSD816SN       SOT363                                                                            
+U$10 TL3315      TL3315         4PSWITCH                                                                          

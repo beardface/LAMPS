@@ -1,6 +1,6 @@
 LAMPS - The Open Hardware SLA Printer
 -------------------------------------
-LAMPS (Laser Arduino Mega Pololu Shield|SLA Printer) is an open control board and SLA printer design.  The SLA Printer strives to be a low-cost, small footprint (It is only 200mmx350mm!), highly capable SLA Printer. The build platform size is currently 80mmx80mm, but could probably be increased by someone who is motivated to enhance the design.
+LAMPS (Laser Arduino Mega Pololu Shield|SLA Printer) is an open control board and SLA printer design.  The SLA Printer strives to be a low-cost, small footprint (It is only 200mmx350mm!), highly capable SLA Printer. The build platform size is currently 100mmx100mm, but could probably be increased by someone who is motivated to enhance the design.
 
 #License
 The schematic for the OpenSL electronics are licensed under the GPL.
